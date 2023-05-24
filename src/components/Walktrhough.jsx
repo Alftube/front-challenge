@@ -3,10 +3,10 @@ import Image from 'next/image'
 
 function Walktrhough() {
   return (
-    <section className='w-full flex justify-center gap-32 mt-32 bg-single-wave-pattern'>
-      <div className="cardsBG"></div>
-      <div className="cardsContainer flex justify-center">
-        <div className="introCard bg-gradient-to-b from-blue-500 to-pink-400 relative transform rotate-3 top-30 left-0 mr-400" id="card1">
+    <section className='w-full flex justify-center gap-32 mt-32 bg-single-wave-pattern from-blue-500 via-transparent to-pink-300'>
+      <div className="cardsBG "></div>
+      <div className="cardsContainer flex justify-center ">
+        <div className="introCard bg-gradient-to-b from-blue-500 to-pink-300 relative transform rotate-3 top-30 left-0 mr-400" id="card1">
           <div className="illustrationsBG"></div>
           <Image
             className="cardsIllustration"
