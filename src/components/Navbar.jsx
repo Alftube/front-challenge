@@ -42,27 +42,4 @@ function Navbar() {
 }
 
 
-const DropDownMenu = () => {
-  const [isOpen, setIsOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
-
-  return (
-    <div>
-      <button onClick={toggleMenu}>Abrir/Cerrar Menú</button>
-      {isOpen ? (
-        <div>
-          {/* Contenido del menú */}
-        </div>
-      ) : null}
-    </div>
-  );
-};
-
-
-
-
-
 export default Navbar;

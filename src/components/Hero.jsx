@@ -1,11 +1,9 @@
-import Navbar from './Navbar';
 import Image from 'next/image';
-//import WalkthCard from './WaltkthroudCard';
 
 function Landing() {
   return (
-    <section className='flex flex-col items-center h-full w-screen'>
-      <div className='flex bg-gradient-to-b from-brand-default via-transparent mt-16 h-full max-w-1920px justify-evenly bg-single-wave-pattern '>
+    <section className='flex flex-col items-center h-full w-full'>
+      <div className='flex mt-16 h-full bg-single-wave-pattern '>
         <div className='flex flex-col items-start justify-center z-9 w-1/2'>
           <h5 className='w-500 flex mt-8 text-neutral-400 text-sm mb-0 w-1/2 font-semibold'>EXPLORE THE</h5>
           <h1 className='text-9xl font-bold bg-clip-text text-transparent bg-brand-default bg-gradient-to-r from-blue-500 to-purple-500'>
@@ -25,7 +23,7 @@ function Landing() {
              />
           </a>
         </div>
-        <div className='hero-desktop flex justify-center items-center w-1/2 position'>
+        <div className='hero-desktop flex justify-center items-center'>
           <div className='ilustrationBG bg-gradient-to-br from-brand-default via-neutral-900 rounded-full w-80 h-64 relative z-90'>
             <Image className='h-400 bg-gradient-to-b from-blue-500 to-pink-400 bg-opacity-50 rounded-3xl w-470 ml-160 mt-50 relative'
               src='/assets/illustrations/hero-desktop.png'
