@@ -1,10 +1,15 @@
 {
   "pages": {},
+<<<<<<< HEAD
   "app": {
     "/home/alf/front-challenge/node_modules/next/font/google/target.css?{\"path\":\"src/pages/index.js\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}": [
       "static/media/2aaf0723e720e8b9-s.p.woff2"
     ]
   },
   "appUsingSizeAdjust": true,
+=======
+  "app": {},
+  "appUsingSizeAdjust": false,
+>>>>>>> b9e9c19e64dfef84ab37f82f0fa2b84791b83988
   "pagesUsingSizeAdjust": false
 }
